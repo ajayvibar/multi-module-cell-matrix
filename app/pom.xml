@@ -1,0 +1,27 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.rekcus</groupId>
+	<artifactId>app</artifactId>
+	<version>1.0-SNAPSHOT</version>
+
+	<parent>
+		<groupId>com.rekcus</groupId>
+		<artifactId>Exercise</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>service</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
